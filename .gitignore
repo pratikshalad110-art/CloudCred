@@ -1,0 +1,8 @@
+Backend/venv/
+Backend/__pycache__/
+*.pyc
+Backend/instance/
+Backend/uploads/
+Backend/cloudcred.db
+
+
