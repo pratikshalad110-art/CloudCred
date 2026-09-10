@@ -144,7 +144,8 @@ async function loadDashboard() {
     try {
 
         const response = await fetch(
-            "http://127.0.0.1:5000/dashboard",
+            "https://cloudcred.onrender.com/dashboard",
+
             {
                 method: "GET",
                 credentials: "include"
@@ -196,7 +197,8 @@ async function logout() {
     try {
 
         await fetch(
-            "http://127.0.0.1:5000/logout",
+            "https://cloudcred.onrender.com/logout",
+
             {
                 method: "POST",
                 credentials: "include"
