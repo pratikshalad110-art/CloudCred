@@ -877,10 +877,7 @@ def generate_qr():
     # https://cloudcred.onrender.com
     # =====================================================
 
-    base_url = os.environ.get(
-        "BASE_URL",
-        "http://127.0.0.1:5000"
-    ).rstrip("/")
+    base_url = "https://cloudcred.onrender.com"
 
     verification_url = (
         base_url
